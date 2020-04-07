@@ -21,7 +21,7 @@ exports.handler = function(event, context, callback) {
       		price: product.fields.price,
           description: product.fields.description,
           image: product.fields.image,
-          url: 'https://snipcart-buttercms-demo.netlify.com/.netlify/functions/snipcart_json_crawler',
+          url: 'https://fervent-brattain-e6c67f.netlify.com/.netlify/functions/snipcart_json_crawler',
       	};
       });
 

@@ -26,7 +26,7 @@ exports.handler = function(event, context, callback) {
     url: 'https://'+ process.env.SNIPCART_API_KEY +':@app.snipcart.com/api/products',
     json: true,
     body: {
-      fetchUrl: 'https://snipcart-buttercms-demo.netlify.com/.netlify/functions/snipcart_json_crawler',
+      fetchUrl: 'https://fervent-brattain-e6c67f.netlify.com/.netlify/functions/snipcart_json_crawler',
     }
   }, function(err, res, body) {
     if(err) {
